@@ -1,0 +1,28 @@
+{
+  "name": "lighthouse-datahog",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lh": "npm run lh:clean && lhci autorun --config=./src/lighthouserc.js && node ./src/parse.js",
+    "lh:parse": "node ./src/parse.js",
+    "lh:clean": "rm -rf .lighthouseci/*",
+		"lh:nuke": "rm -rf ./data/*.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stordahl/lighthouse-datahog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stordahl/lighthouse-datahog/issues"
+  },
+  "homepage": "https://github.com/stordahl/lighthouse-datahog#readme",
+  "dependencies": {
+    "glob": "^8.0.3",
+    "lighthouse": "^9.6.6"
+  }
+}
