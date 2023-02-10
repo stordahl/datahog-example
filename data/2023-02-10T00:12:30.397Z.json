@@ -1,0 +1,264 @@
+[
+  {
+    "url": "https://www.stordahl.dev/",
+    "time_stamp": "2023-02-10T00:12:18.688Z",
+    "first_contentful_paint": {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more](https://web.dev/first-contentful-paint/).",
+      "score": 0.85,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1979.683,
+      "numericUnit": "millisecond",
+      "displayValue": "2.0 s"
+    },
+    "largest_contentful_paint": {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more](https://web.dev/lighthouse-largest-contentful-paint/)",
+      "score": 0.97,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1979.683,
+      "numericUnit": "millisecond",
+      "displayValue": "2.0 s"
+    },
+    "first_meaningful_paint": {
+      "id": "first-meaningful-paint",
+      "title": "First Meaningful Paint",
+      "description": "First Meaningful Paint measures when the primary content of a page is visible. [Learn more](https://web.dev/first-meaningful-paint/).",
+      "score": 0.95,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1979.683,
+      "numericUnit": "millisecond",
+      "displayValue": "2.0 s"
+    },
+    "total_blocking_time": {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more](https://web.dev/lighthouse-total-blocking-time/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1.5,
+      "numericUnit": "millisecond",
+      "displayValue": "0 ms"
+    },
+    "cumulative_layout_shift": {
+      "id": "cumulative-layout-shift",
+      "title": "Cumulative Layout Shift",
+      "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more](https://web.dev/cls/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "unitless",
+      "displayValue": "0",
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0,
+            "totalCumulativeLayoutShift": 0
+          }
+        ]
+      }
+    },
+    "speed_index": {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more](https://web.dev/speed-index/).",
+      "score": 0.92,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 3254.3474247131367,
+      "numericUnit": "millisecond",
+      "displayValue": "3.3 s"
+    },
+    "time_to_interactive": {
+      "id": "interactive",
+      "title": "Time to Interactive",
+      "description": "Time to interactive is the amount of time it takes for the page to become fully interactive. [Learn more](https://web.dev/interactive/).",
+      "score": 0.99,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 2130.683,
+      "numericUnit": "millisecond",
+      "displayValue": "2.1 s"
+    },
+    "metrics": [
+      {
+        "firstContentfulPaint": 1980,
+        "firstMeaningfulPaint": 1980,
+        "largestContentfulPaint": 1980,
+        "interactive": 2131,
+        "speedIndex": 3254,
+        "totalBlockingTime": 2,
+        "maxPotentialFID": 53,
+        "cumulativeLayoutShift": 0,
+        "cumulativeLayoutShiftMainFrame": 0,
+        "totalCumulativeLayoutShift": 0,
+        "observedTimeOrigin": 0,
+        "observedTimeOriginTs": 300615936,
+        "observedNavigationStart": 0,
+        "observedNavigationStartTs": 300615936,
+        "observedFirstPaint": 1509,
+        "observedFirstPaintTs": 302125118,
+        "observedFirstContentfulPaint": 1509,
+        "observedFirstContentfulPaintTs": 302125118,
+        "observedFirstContentfulPaintAllFrames": 1509,
+        "observedFirstContentfulPaintAllFramesTs": 302125118,
+        "observedFirstMeaningfulPaint": 1509,
+        "observedFirstMeaningfulPaintTs": 302125118,
+        "observedLargestContentfulPaint": 1509,
+        "observedLargestContentfulPaintTs": 302125118,
+        "observedLargestContentfulPaintAllFrames": 1509,
+        "observedLargestContentfulPaintAllFramesTs": 302125118,
+        "observedTraceEnd": 4121,
+        "observedTraceEndTs": 304737327,
+        "observedLoad": 1511,
+        "observedLoadTs": 302126599,
+        "observedDomContentLoaded": 1509,
+        "observedDomContentLoadedTs": 302125069,
+        "observedCumulativeLayoutShift": 0,
+        "observedCumulativeLayoutShiftMainFrame": 0,
+        "observedTotalCumulativeLayoutShift": 0,
+        "observedFirstVisualChange": 1521,
+        "observedFirstVisualChangeTs": 302136936,
+        "observedLastVisualChange": 2105,
+        "observedLastVisualChangeTs": 302720936,
+        "observedSpeedIndex": 1534,
+        "observedSpeedIndexTs": 302149580
+      },
+      {
+        "lcpInvalidated": false
+      }
+    ]
+  },
+  {
+    "url": "https://www.stordahl.dev/writing",
+    "time_stamp": "2023-02-10T00:12:30.397Z",
+    "first_contentful_paint": {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more](https://web.dev/first-contentful-paint/).",
+      "score": 0.89,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1832.294,
+      "numericUnit": "millisecond",
+      "displayValue": "1.8 s"
+    },
+    "largest_contentful_paint": {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more](https://web.dev/lighthouse-largest-contentful-paint/)",
+      "score": 0.98,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1832.294,
+      "numericUnit": "millisecond",
+      "displayValue": "1.8 s"
+    },
+    "first_meaningful_paint": {
+      "id": "first-meaningful-paint",
+      "title": "First Meaningful Paint",
+      "description": "First Meaningful Paint measures when the primary content of a page is visible. [Learn more](https://web.dev/first-meaningful-paint/).",
+      "score": 0.97,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1832.294,
+      "numericUnit": "millisecond",
+      "displayValue": "1.8 s"
+    },
+    "total_blocking_time": {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more](https://web.dev/lighthouse-total-blocking-time/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "0 ms"
+    },
+    "cumulative_layout_shift": {
+      "id": "cumulative-layout-shift",
+      "title": "Cumulative Layout Shift",
+      "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more](https://web.dev/cls/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "unitless",
+      "displayValue": "0",
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0,
+            "totalCumulativeLayoutShift": 0
+          }
+        ]
+      }
+    },
+    "speed_index": {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more](https://web.dev/speed-index/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1832.294,
+      "numericUnit": "millisecond",
+      "displayValue": "1.8 s"
+    },
+    "time_to_interactive": {
+      "id": "interactive",
+      "title": "Time to Interactive",
+      "description": "Time to interactive is the amount of time it takes for the page to become fully interactive. [Learn more](https://web.dev/interactive/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1832.294,
+      "numericUnit": "millisecond",
+      "displayValue": "1.8 s"
+    },
+    "metrics": [
+      {
+        "firstContentfulPaint": 1832,
+        "firstMeaningfulPaint": 1832,
+        "largestContentfulPaint": 1832,
+        "interactive": 1832,
+        "speedIndex": 1832,
+        "totalBlockingTime": 0,
+        "maxPotentialFID": 45,
+        "cumulativeLayoutShift": 0,
+        "cumulativeLayoutShiftMainFrame": 0,
+        "totalCumulativeLayoutShift": 0,
+        "observedTimeOrigin": 0,
+        "observedTimeOriginTs": 312277652,
+        "observedNavigationStart": 0,
+        "observedNavigationStartTs": 312277652,
+        "observedFirstPaint": 417,
+        "observedFirstPaintTs": 312694208,
+        "observedFirstContentfulPaint": 417,
+        "observedFirstContentfulPaintTs": 312694208,
+        "observedFirstContentfulPaintAllFrames": 417,
+        "observedFirstContentfulPaintAllFramesTs": 312694208,
+        "observedFirstMeaningfulPaint": 417,
+        "observedFirstMeaningfulPaintTs": 312694208,
+        "observedLargestContentfulPaint": 417,
+        "observedLargestContentfulPaintTs": 312694208,
+        "observedLargestContentfulPaintAllFrames": 417,
+        "observedLargestContentfulPaintAllFramesTs": 312694208,
+        "observedTraceEnd": 2953,
+        "observedTraceEndTs": 315230530,
+        "observedLoad": 409,
+        "observedLoadTs": 312686700,
+        "observedDomContentLoaded": 398,
+        "observedDomContentLoadedTs": 312675852,
+        "observedCumulativeLayoutShift": 0,
+        "observedCumulativeLayoutShiftMainFrame": 0,
+        "observedTotalCumulativeLayoutShift": 0,
+        "observedFirstVisualChange": 426,
+        "observedFirstVisualChangeTs": 312703652,
+        "observedLastVisualChange": 1026,
+        "observedLastVisualChangeTs": 313303652,
+        "observedSpeedIndex": 433,
+        "observedSpeedIndexTs": 312710158
+      },
+      {
+        "lcpInvalidated": false
+      }
+    ]
+  }
+]
